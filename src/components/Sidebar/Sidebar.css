@@ -1,9 +1,33 @@
 .sidebar-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 1rem;
   padding: 15px;
   background-color: var(--white);
+}
+.expanded {
+  width: 11.25rem;
+}
+.collapsed {
+  width: 5rem;
+}
+.sidebar-collapse {
+  background-color: var(--accent);
+  color: var(--white);
+  position: absolute;
+  display: grid;
+  place-items: center;
+  height: 30px;
+  aspect-ratio: 1;
+  top: 30px;
+  right: -15px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+.collapse-icon {
+  transition: all 150ms ease-in-out;
 }
 .sidebar-item:not(:last-child) {
   display: flex;
@@ -26,11 +50,15 @@
 .sidebar-item,
 .logout-btn {
   cursor: pointer;
+}
+
+.item-expand {
   width: 150px;
 }
-/* .sidebar-icon {
-  color: var(--accent);
-} */
+.item-collapse {
+  width: 50px;
+}
+
 .logout-btn {
   background-color: var(--white);
   color: var(--accent);
@@ -38,6 +66,7 @@
   border-radius: 10px;
   padding: 10px;
   transition: all 200ms ease-in-out;
+  width: 100%;
 }
 .logout-btn:hover {
   background-color: var(--accent);
