@@ -7,7 +7,6 @@
 .sidebar-container:hover {
   width: 10rem;
 }
-
 .sidebar-container:hover .sidebar-item:last-child {
   display: flex;
 }
