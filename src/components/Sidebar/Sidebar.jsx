@@ -17,14 +17,14 @@ const Sidebar = () => {
           <HomeIcon fontSize="large" /> <span className="item-text">Home</span>
         </div>
         <div className="sidebar-item">
-          <FolderCopyIcon fontSize="large" />{" "}
+          <FolderCopyIcon fontSize="large" />
           <span className="item-text">Projects</span>
         </div>
         <div className="sidebar-item">
           <ChatIcon fontSize="large" /> <span className="item-text">Chat</span>
         </div>
         <div className="sidebar-item">
-          <AssessmentIcon fontSize="large" />{" "}
+          <AssessmentIcon fontSize="large" />
           <span className="item-text">Analytics</span>
         </div>
         <div className="sidebar-item">Logout</div>
