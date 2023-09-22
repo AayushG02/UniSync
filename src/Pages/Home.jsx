@@ -1,8 +1,16 @@
 import React from "react";
-import Sidebar from "../components/Sidebar/Sidebar";
+import ProjectList from "../components/ProjectList/ProjectList";
+import Search from "../components/Search/Search";
+import Topbar from "../components/Topbar/Topbar";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <>
+      <Topbar />
+      <Search />
+      <ProjectList />
+    </>
+  );
 };
 
 export default Home;
