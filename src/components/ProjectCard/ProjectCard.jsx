@@ -1,11 +1,19 @@
 import React from "react";
 import BookmarkBorderTwoToneIcon from "@mui/icons-material/BookmarkBorderTwoTone";
+import { motion } from "framer-motion";
 
 import "./ProjectCard.css";
 
 const ProjectCard = (props) => {
   return (
-    <div className="project-container">
+    <motion.div
+      className="project-container"
+      initial={{ opacity: 0.2}}
+      whileInView={{ opacity: 1}}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.2 }}
+      // viewport={{ once: true }}
+    >
       <div className="project-img-container">
         <img src={props.imgURL} className="project-img" />
       </div>
@@ -39,7 +47,7 @@ const ProjectCard = (props) => {
           <p>{props.contributors.length} Contributors</p>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

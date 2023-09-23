@@ -10,9 +10,9 @@ const ProjectList = () => {
       title: "Lorem Ipsum 1",
       desc: "Aenean vel iaculis sem, eu maximus tellus. Aenean dapibus erat vel rutrum accumsan. Maecenas sit amet vestibulum purus. Etiam vestibulum justo gravida ultricies ultrices. Sed euismod ex quis nibh consectetur suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti.",
       uniName: "dolor sit 1",
-      stack: ["html", "css", "js"],
+      stack: ["html", "css", "js", "MonogoDB"],
       contributors: ["name", "name", "name", "name"],
-      imgURL: "https://picsum.photos/600/400"
+      imgURL: "https://picsum.photos/600/400",
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ const ProjectList = () => {
       uniName: "dolor sit 2",
       stack: ["html", "css", "js"],
       contributors: ["name", "name", "name", "name"],
-      imgURL: "https://picsum.photos/600/400"
+      imgURL: "https://picsum.photos/600/400",
     },
     {
       id: 3,
@@ -30,7 +30,7 @@ const ProjectList = () => {
       uniName: "dolor sit 3",
       stack: ["html", "css", "js"],
       contributors: ["name", "name", "name", "name"],
-      imgURL: "https://picsum.photos/600/400"
+      imgURL: "https://picsum.photos/600/400",
     },
     {
       id: 4,
@@ -39,7 +39,7 @@ const ProjectList = () => {
       uniName: "dolor sit 4",
       stack: ["html", "css", "js"],
       contributors: ["name", "name", "name", "name"],
-      imgURL: "https://picsum.photos/600/400"
+      imgURL: "https://picsum.photos/600/400",
     },
     {
       id: 5,
@@ -48,7 +48,7 @@ const ProjectList = () => {
       uniName: "dolor sit 5",
       stack: ["html", "css", "js"],
       contributors: ["name", "name", "name", "name"],
-      imgURL: "https://picsum.photos/600/400"
+      imgURL: "https://picsum.photos/600/400",
     },
   ];
 

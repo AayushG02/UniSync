@@ -43,16 +43,19 @@
 }
 .project-stack-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 .project-stack {
+  padding: 0 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   min-width: 5rem;
   height: 1.8rem;
   border-radius: 1rem;
-  border: 1px solid #9ab2d6;
+  border: 1px solid rgb(166, 192, 231);
+  color: var(--black);
   background: #d0e3ff;
 }
 .project-details-bottom {

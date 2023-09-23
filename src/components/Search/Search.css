@@ -1,5 +1,7 @@
+
 .search-container {
-  margin: 2.75rem auto 4.75rem;
+  margin: 2.75rem auto;
+  margin-bottom: 2.75rem;
   max-width: 75rem;
   height: 6.5rem;
   padding: 1.5rem;
@@ -15,6 +17,8 @@
   width: 300px;
   height: 2.75rem;
   justify-content: space-around;
+  padding: 4px;
+  
 }
 .personalised,
 .following {
@@ -28,7 +32,7 @@
 .filter-selected {
   color: var(--white);
   background-color: var(--accent);
-  border-radius: 1rem;
+  border-radius: 12px;
 }
 .search-right {
   width: 35%;
@@ -42,7 +46,8 @@
   display: flex;
   align-items: center;
   gap: 1rem;
-  border-radius: 12px;
+  border-radius: 16px;
+  height: 48px;
 }
 .search-bar {
   padding: 0.625rem;
