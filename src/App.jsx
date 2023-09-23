@@ -1,20 +1,22 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import Sidebar from "./components/Sidebar/Sidebar";
+import Login from "./components/Login/Login";
 
 function App() {
   return (
-    <div id="app">
-      <BrowserRouter>
+    <Router>
+      <div id="app">
         <Sidebar />
         <div id="pages">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/login" element={<Login />} />
           </Routes>
         </div>
-      </BrowserRouter>
-    </div>
+      </div>
+    </Router>
   );
 }
 
